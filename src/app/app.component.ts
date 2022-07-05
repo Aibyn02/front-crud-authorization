@@ -11,6 +11,7 @@ export class AppComponent {
   isLoggedIn = false;
   showAdminBoard = false;
   showModeratorBoard = false;
+  showEmployeeBoard = false;
   username?: string;
 
   constructor(private tokenStorageService: TokenStorageService) { }
